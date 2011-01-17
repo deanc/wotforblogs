@@ -4,7 +4,7 @@ Donate link: http://example.com/
 Tags: comments, spam, trust, safety, wot, mywot
 Requires at least: 3.0.0
 Tested up to: 3.0.4
-Stable: trunk
+Stable tag: trunk
 
 Adds WOT rating symbols to your posts to indicate which links are safe
 
