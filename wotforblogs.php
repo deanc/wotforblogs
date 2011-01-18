@@ -29,13 +29,13 @@ License: GPL2
 function wotforblogs_init()
 {
 	wp_deregister_script('wot-config');
-	wp_register_script('wot-config', plugin_dir_url(__FILE__) . '/wotforblogs-config.js');
+	wp_register_script('wot-config', plugin_dir_url(__FILE__) . 'wotforblogs-config.js', array(), false, true);
 	wp_enqueue_script('wot-config');
-
+	
 	wp_deregister_script('wot');
-	wp_register_script('wot', 'http://api.mywot.com/widgets/ratings.js');
+	wp_register_script('wot', 'http://api.mywot.com/widgets/ratings.js', array(), false, true);
 	wp_enqueue_script('wot');
 }
-add_action('wp_init', wotforblogs_init());
+add_action('wp_footer', wotforblogs_init());
 
 ?>
