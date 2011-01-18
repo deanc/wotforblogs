@@ -4,7 +4,7 @@ Donate link: http://example.com/
 Tags: comments, spam, trust, safety, wot, mywot
 Requires at least: 3.0.0
 Tested up to: 3.0.4
-Stable tag: 0.9.2
+Stable tag: 0.9.3
 
 Adds WOT rating symbols to your posts to indicate which links are safe
 
@@ -31,6 +31,9 @@ Included with the plugin is a wotforblogs-config.js file. This file contains con
 2. screenshot-2.png
 
 == Changelog ==
+
+= 0.9.3 =
+* Bug: version numbers were incorrect.
 
 = 0.9.2 =
 * Enhancement: moved JS code before closing </body> tag
