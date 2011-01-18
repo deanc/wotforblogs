@@ -3,7 +3,7 @@
 Plugin Name: WOT for blogs
 Plugin URI: http://www.mywot.com
 Description: Adds WOT's rating symbols to outgoing links on your blog to show users which links are safe.
-Version: 0.9
+Version: 0.9.2
 Author: Web Of Trust
 Author URI: http://www.mywot.com
 License: GPL2
