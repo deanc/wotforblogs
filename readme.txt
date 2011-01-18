@@ -32,6 +32,9 @@ Included with the plugin is a wotforblogs-config.js file. This file contains con
 
 == Changelog ==
 
+= 0.9.1 =
+* Bug: plugin path to config JS file was incorrect
+
 = 0.9 =
 * First version.
 
