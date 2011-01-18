@@ -29,7 +29,7 @@ License: GPL2
 function wotforblogs_init()
 {
 	wp_deregister_script('wot-config');
-	wp_register_script('wot-config', get_bloginfo('wpurl') . '/wp-content/plugins/wotforblogs/wotforblogs-config.js');
+	wp_register_script('wot-config', plugin_dir_url(__FILE__) . '/wotforblogs-config.js');
 	wp_enqueue_script('wot-config');
 
 	wp_deregister_script('wot');
